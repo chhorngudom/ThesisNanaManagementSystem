@@ -1,0 +1,593 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C5DE990-00BB-451E-855F-BF0E980B52F1}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>ThesisNanaManagementSystem.My.MyApplication</StartupObject>
+    <RootNamespace>ThesisNanaManagementSystem</RootNamespace>
+    <AssemblyName>ThesisNanaManagementSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>ThesisNanaManagementSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>ThesisNanaManagementSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="ConnectDB\ClsConnection.vb" />
+    <Compile Include="ConnectDB\FrmBackup.Designer.vb">
+      <DependentUpon>FrmBackup.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectDB\FrmBackup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectDB\FrmRestoreDatabase.Designer.vb">
+      <DependentUpon>FrmRestoreDatabase.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConnectDB\FrmRestoreDatabase.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\ClsDetailEmployee.vb" />
+    <Compile Include="Employee\ClsDetailSalary.vb" />
+    <Compile Include="Employee\ClsEmployee.vb" />
+    <Compile Include="Employee\ClsSalary.vb" />
+    <Compile Include="Employee\ClsStopwork.vb" />
+    <Compile Include="Employee\DALEmployee.vb" />
+    <Compile Include="Employee\FrmAllEmployee.Designer.vb">
+      <DependentUpon>FrmAllEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\FrmAllEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\FrmDetailSalary.Designer.vb">
+      <DependentUpon>FrmDetailSalary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\FrmDetailSalary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\Frmreportallemployee.Designer.vb">
+      <DependentUpon>Frmreportallemployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\Frmreportallemployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\FrmSalary.Designer.vb">
+      <DependentUpon>FrmSalary.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\FrmSalary.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\FrmStopwork.Designer.vb">
+      <DependentUpon>FrmStopwork.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Employee\FrmStopwork.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee\Reportallemployeee.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reportallemployeee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="FrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NANAManagementSystemDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NANAManagementSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="RestoreDeleteData\FrmDeleteAndRestoreDataEmployee.Designer.vb">
+      <DependentUpon>FrmDeleteAndRestoreDataEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RestoreDeleteData\FrmDeleteAndRestoreDataEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestoreDeleteData\FrmRestoreAndDeleteDataStudent.Designer.vb">
+      <DependentUpon>FrmRestoreAndDeleteDataStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RestoreDeleteData\FrmRestoreAndDeleteDataStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\Clsdaystudy.vb" />
+    <Compile Include="Schedule\ClsSchedule.vb" />
+    <Compile Include="Schedule\FrmReportSchedule.Designer.vb">
+      <DependentUpon>FrmReportSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule\FrmReportSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\Frmtimetable.Designer.vb">
+      <DependentUpon>Frmtimetable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule\Frmtimetable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\ReportSchedule.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportSchedule.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student\ClsAttandant.vb" />
+    <Compile Include="Student\ClsAttDetail.vb" />
+    <Compile Include="Student\ClsDetailstudent.vb" />
+    <Compile Include="Student\ClsPayment.vb" />
+    <Compile Include="Student\ClspaymentDetail.vb" />
+    <Compile Include="Student\Clsscoredetail.vb" />
+    <Compile Include="Student\ClsShowdatastudent.vb" />
+    <Compile Include="Student\ClsTerm.vb" />
+    <Compile Include="Student\DALStudent.vb" />
+    <Compile Include="Student\FrmAllstudent.Designer.vb">
+      <DependentUpon>FrmAllstudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\FrmAllstudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\Frmattantdant.Designer.vb">
+      <DependentUpon>Frmattantdant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Frmattantdant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\frmdataattandant.Designer.vb">
+      <DependentUpon>frmdataattandant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\frmdataattandant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\frmManageAttandant.Designer.vb">
+      <DependentUpon>frmManageAttandant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\frmManageAttandant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\FrmScore.Designer.vb">
+      <DependentUpon>FrmScore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\FrmScore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\FrmScoreDetail.Designer.vb">
+      <DependentUpon>FrmScoreDetail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\FrmScoreDetail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\Frmstudentfee.Designer.vb">
+      <DependentUpon>Frmstudentfee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Frmstudentfee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\FrmStudentFees.Designer.vb">
+      <DependentUpon>FrmStudentFees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\FrmStudentFees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\Frmstudentgraduate.Designer.vb">
+      <DependentUpon>Frmstudentgraduate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student\Frmstudentgraduate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subject\ClsPartsubject.vb" />
+    <Compile Include="Subject\ClsSubject.vb" />
+    <Compile Include="Subject\CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Subject\DALSubject.vb" />
+    <Compile Include="Subject\Frmalldatasubject.Designer.vb">
+      <DependentUpon>Frmalldatasubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Subject\Frmalldatasubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subject\FrmPartSubject.Designer.vb">
+      <DependentUpon>FrmPartSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Subject\FrmPartSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Schedule\ClsTime.vb" />
+    <Compile Include="Schedule\ClsTimeName.vb" />
+    <Compile Include="Schedule\DALSchedule.vb" />
+    <Compile Include="Schedule\FrmDayStudy.Designer.vb">
+      <DependentUpon>FrmDayStudy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule\FrmDayStudy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\FrmNametime.Designer.vb">
+      <DependentUpon>FrmNametime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule\FrmNametime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\FrmSchedule.Designer.vb">
+      <DependentUpon>FrmSchedule.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule\FrmSchedule.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Schedule\FrmTime.Designer.vb">
+      <DependentUpon>FrmTime.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Schedule\FrmTime.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student\ClsScore.vb" />
+    <Compile Include="Student\ClsStudent.vb" />
+    <Compile Include="Subject\FrmReportSubject.Designer.vb">
+      <DependentUpon>FrmReportSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Subject\FrmReportSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Subject\FrmSubject.Designer.vb">
+      <DependentUpon>FrmSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Subject\FrmSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount\ClsUserAccount.vb" />
+    <Compile Include="UserAccount\DAL.vb" />
+    <Compile Include="UserAccount\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount\Frmalluseraccount.Designer.vb">
+      <DependentUpon>Frmalluseraccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount\Frmalluseraccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount\FrmCreateNewUser.Designer.vb">
+      <DependentUpon>FrmCreateNewUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount\FrmCreateNewUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount\FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount\FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount\FrmReportuser.Designer.vb">
+      <DependentUpon>FrmReportuser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount\FrmReportuser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount\FrmStart.Designer.vb">
+      <DependentUpon>FrmStart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount\FrmStart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount\ManageUserAccount.Designer.vb">
+      <DependentUpon>ManageUserAccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserAccount\ManageUserAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserAccount\Reportalluser.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reportalluser.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ConnectDB\FrmBackup.resx">
+      <DependentUpon>FrmBackup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConnectDB\FrmRestoreDatabase.resx">
+      <DependentUpon>FrmRestoreDatabase.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\FrmAllEmployee.resx">
+      <DependentUpon>FrmAllEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\FrmDetailSalary.resx">
+      <DependentUpon>FrmDetailSalary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\Frmreportallemployee.resx">
+      <DependentUpon>Frmreportallemployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\FrmSalary.resx">
+      <DependentUpon>FrmSalary.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\FrmStopwork.resx">
+      <DependentUpon>FrmStopwork.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee\Reportallemployeee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Reportallemployeee.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestoreDeleteData\FrmDeleteAndRestoreDataEmployee.resx">
+      <DependentUpon>FrmDeleteAndRestoreDataEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestoreDeleteData\FrmRestoreAndDeleteDataStudent.resx">
+      <DependentUpon>FrmRestoreAndDeleteDataStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\FrmReportSchedule.resx">
+      <DependentUpon>FrmReportSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\Frmtimetable.resx">
+      <DependentUpon>Frmtimetable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\ReportSchedule.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportSchedule.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\FrmAllstudent.resx">
+      <DependentUpon>FrmAllstudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\Frmattantdant.resx">
+      <DependentUpon>Frmattantdant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\frmdataattandant.resx">
+      <DependentUpon>frmdataattandant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\frmManageAttandant.resx">
+      <DependentUpon>frmManageAttandant.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\FrmScore.resx">
+      <DependentUpon>FrmScore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\FrmScoreDetail.resx">
+      <DependentUpon>FrmScoreDetail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\Frmstudentfee.resx">
+      <DependentUpon>Frmstudentfee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\FrmStudentFees.resx">
+      <DependentUpon>FrmStudentFees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student\Frmstudentgraduate.resx">
+      <DependentUpon>Frmstudentgraduate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject\Frmalldatasubject.resx">
+      <DependentUpon>Frmalldatasubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject\FrmPartSubject.resx">
+      <DependentUpon>FrmPartSubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\FrmDayStudy.resx">
+      <DependentUpon>FrmDayStudy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\FrmNametime.resx">
+      <DependentUpon>FrmNametime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\FrmSchedule.resx">
+      <DependentUpon>FrmSchedule.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Schedule\FrmTime.resx">
+      <DependentUpon>FrmTime.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject\FrmReportSubject.resx">
+      <DependentUpon>FrmReportSubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Subject\FrmSubject.resx">
+      <DependentUpon>FrmSubject.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount\Frmalluseraccount.resx">
+      <DependentUpon>Frmalluseraccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount\FrmCreateNewUser.resx">
+      <DependentUpon>FrmCreateNewUser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount\FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount\FrmReportuser.resx">
+      <DependentUpon>FrmReportuser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount\FrmStart.resx">
+      <DependentUpon>FrmStart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount\ManageUserAccount.resx">
+      <DependentUpon>ManageUserAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserAccount\Reportalluser.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Reportalluser.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="NANAManagementSystemDataSet.xsc">
+      <DependentUpon>NANAManagementSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="NANAManagementSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>NANAManagementSystemDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="NANAManagementSystemDataSet.xss">
+      <DependentUpon>NANAManagementSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="UserAccount\App.config" />
+    <None Include="UserAccount\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="UserAccount\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="UserAccount\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18788453_1312639382190167_805322340_n.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oxygen-Icons.org-Oxygen-Actions-user-group-new.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

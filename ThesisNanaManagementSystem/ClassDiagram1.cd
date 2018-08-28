@@ -1,0 +1,848 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ThesisNanaManagementSystem.My.MyApplication" Collapsed="true">
+    <Position X="27.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ApplicationEvents.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.My.MySettings" Collapsed="true">
+    <Position X="29.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAABEAAAAABAABAAAAAAAAAAgAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsConnection" Collapsed="true">
+    <Position X="31" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConnectDB\ClsConnection.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmBackup" Collapsed="true">
+    <Position X="27.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMCAAAAAAgACBEDgCAAAAcAAABAAAAAAIAAA=</HashCode>
+      <FileName>ConnectDB\FrmBackup.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmRestoreDatabase" Collapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAMCAAAAAAAACBEHgCAAAAcAAABAAAAAAABAg=</HashCode>
+      <FileName>ConnectDB\FrmRestoreDatabase.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsDetailEmployee" Collapsed="true">
+    <Position X="34.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAgAQAAACAAACAACAAkAAAAACCAAAAAAAA=</HashCode>
+      <FileName>Employee\ClsDetailEmployee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsDetailSalary" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AMAAAAAAAAAAAAECAEAAAACAAgAAAAAAICBAAEAAAgA=</HashCode>
+      <FileName>Employee\ClsDetailSalary.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsEmploye" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CEYAGkIQSAAQgQSgEABEYQKCUEBEUBAMERCCQhgACQA=</HashCode>
+      <FileName>Employee\ClsEmployee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsSalary" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAEAAAkAAAEAAAAAAAIAAAgAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Employee\ClsSalary.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsStopwork" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACABAEACACAACAAQAAAAAAAAAAARCAAAEAAAAA=</HashCode>
+      <FileName>Employee\ClsStopwork.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.DALEmployee" Collapsed="true">
+    <Position X="29.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACRAAwYADAAGgE8ABAFACAHAQRwFEAAgAQAAACwAMA=</HashCode>
+      <FileName>Employee\DALEmployee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmAllEmployee" Collapsed="true">
+    <Position X="39.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAECAAAAAIAEKAwAACDCAQAAwAAtMIAAAAABA=</HashCode>
+      <FileName>Employee\FrmAllEmployee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmDetailSalary" Collapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEEAAEAQECIAIEAAoACBkDkKABS4dwYBBEACBAAAIoA=</HashCode>
+      <FileName>Employee\FrmDetailSalary.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Frmreportallemployee" Collapsed="true">
+    <Position X="27.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAgAAAAACBAAACAAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Employee\Frmreportallemployee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmSalary" Collapsed="true">
+    <Position X="38" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAkCggAAAAAASBQAgCCAC4ZwkIEAIgABAIIAA=</HashCode>
+      <FileName>Employee\FrmSalary.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmStopwork" Collapsed="true">
+    <Position X="27.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgIAACIFCAAAAAAEASBsDwLBQD4dwQBAOISJAAAIoA=</HashCode>
+      <FileName>Employee\FrmStopwork.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Reportallemployeee" Collapsed="true">
+    <Position X="34.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAJAAAQAAAAAAIIAAAAAAAgAAAASAABAAAABAA=</HashCode>
+      <FileName>Employee\Reportallemployeee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.CachedReportallemployeee" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employee\Reportallemployeee.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmMain" Collapsed="true">
+    <Position X="39.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>37/f+X/8n+vg6fvxv/fXzn////3//x//7/v9/b+7/ns=</HashCode>
+      <FileName>FrmMain.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSet" Collapsed="true">
+    <Position X="31" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OdwfSoC1szJUTCb4PsoSbxSTKMwLVRzRxifAULspv7U=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmDeleteAndRestoreDataEmployee" Collapsed="true">
+    <Position X="34.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAkBAAAIECAAAAAAABCBADkKIQC4dwIBBWAQDAAAIoA=</HashCode>
+      <FileName>RestoreDeleteData\FrmDeleteAndRestoreDataEmployee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmRestoreAndDeleteDataStudent" Collapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAkAIACIESAAgQEAAACDoDgKAIC4dwABQSgAAAAAMCA=</HashCode>
+      <FileName>RestoreDeleteData\FrmRestoreAndDeleteDataStudent.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Clsdaystudy" Collapsed="true">
+    <Position X="32.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACCAAEAAAAAAAAAEBAAAAAAAAAgAAAAAAAQQAAAAA=</HashCode>
+      <FileName>Schedule\Clsdaystudy.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsSchedule" Collapsed="true">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CESgAAAhAAABAgEABCAAAAAAAAAAAABAACAAAEAACAA=</HashCode>
+      <FileName>Schedule\ClsSchedule.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsTime" Collapsed="true">
+    <Position X="39.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAACAgAAAACAEgAAAAAAAAAIACAAA=</HashCode>
+      <FileName>Schedule\ClsTime.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsTimeName" Collapsed="true">
+    <Position X="41.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAgAgAAACAEAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Schedule\ClsTimeName.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.DALSchedule" Collapsed="true">
+    <Position X="31" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AALIACAFAiEhSICQRAANAABAYAQBAACRMDhAKoE4AAg=</HashCode>
+      <FileName>Schedule\DALSchedule.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmDayStudy" Collapsed="true">
+    <Position X="32.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAIAAEBCIwDgKAAAw8A0QAsAAQAAAAAA=</HashCode>
+      <FileName>Schedule\FrmDayStudy.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmNametime" Collapsed="true">
+    <Position X="24" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAgAUCAACAAAAACAwDgKAAAwcAwAAkAARAEAAAA=</HashCode>
+      <FileName>Schedule\FrmNametime.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmReportSchedule" Collapsed="true">
+    <Position X="29.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAAAiAAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Schedule\FrmReportSchedule.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmSchedule" Collapsed="true">
+    <Position X="39.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iiAAAk6kECBgAQCIFACABCiKAIjy4AEAQlAOVACACAg=</HashCode>
+      <FileName>Schedule\FrmSchedule.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmTime" Collapsed="true">
+    <Position X="36.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAHECAAAAAAACCAwjiKAAIwcAyAAkgAQAAIAEA=</HashCode>
+      <FileName>Schedule\FrmTime.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Frmtimetable" Collapsed="true">
+    <Position X="38" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAAABIAACAwAACAAA4BwwAAAAAAAAAEAA=</HashCode>
+      <FileName>Schedule\Frmtimetable.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ReportSchedule" Collapsed="true">
+    <Position X="38" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>Schedule\ReportSchedule.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.CachedReportSchedule" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="29.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Schedule\ReportSchedule.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsAttandant" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAABAAAAAAAEIAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Student\ClsAttandant.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsAttDetail" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEQAAAAAAAgAAAAEJAAAAAAAAAAEAAAAgAIAAAAAQgA=</HashCode>
+      <FileName>Student\ClsAttDetail.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsDetailstudent" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AESAAAAAAABAARAEEAAAAACAgAAoAYAAIDAAAAAAQgA=</HashCode>
+      <FileName>Student\ClsDetailstudent.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsPayment" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAAAEIAAAAAAAAAAgAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Student\ClsPayment.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClspaymentDetail" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AkQBAAAAEAAAACAEIAAAIAAAAAAgAAQAABCAAAAAAAA=</HashCode>
+      <FileName>Student\ClspaymentDetail.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsScore" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQAAAAAAAAAAgAAMCAIAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Student\ClsScore.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Clsscoredetail" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEQgCAAAAAAAAgAENAAIAACAAAAAAAgAAAAAAAACAAI=</HashCode>
+      <FileName>Student\Clsscoredetail.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsShowdatastudent" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Student\ClsShowdatastudent.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsStudent" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AESClgAEACAQgEAYQEBIoAACUEAKQBgCgAhdQAgSAwQ=</HashCode>
+      <FileName>Student\ClsStudent.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsTerm" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QMQAAAAgBAAAAQAEIAAAAAAgAAAAAIAAQAAAAEAAAAA=</HashCode>
+      <FileName>Student\ClsTerm.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.DALStudent" Collapsed="true">
+    <Position X="32.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IwAF4LQBAgAJBEoEACxR5CQBCDSA8ApQCgGCcQAzgBA=</HashCode>
+      <FileName>Student\DALStudent.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmAllstudent" Collapsed="true">
+    <Position X="41.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAIECAAgQAgAECD0iACAIC4ZwQAQAAAAAAAMCA=</HashCode>
+      <FileName>Student\FrmAllstudent.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Frmattantdant" Collapsed="true">
+    <Position X="25.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoECAAAAAgAADB0jgCAAC4ZwAMBAAAAAAAIAA=</HashCode>
+      <FileName>Student\Frmattantdant.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.frmdataattandant" Collapsed="true">
+    <Position X="31" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoECAgAAAgAAiB0gACAAC4ZwAMgAIAAAAAIAA=</HashCode>
+      <FileName>Student\frmdataattandant.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.frmManageAttandant" Collapsed="true">
+    <Position X="41.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACAAAAoECAAAAAAAECh0D8CAAC4ZwAJAEAAAAAAIoA=</HashCode>
+      <FileName>Student\frmManageAttandant.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmScore" Collapsed="true">
+    <Position X="41.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoECAgAAAgAACB0gACgAC4ZwAIBAAAAAAAIAA=</HashCode>
+      <FileName>Student\FrmScore.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmScoreDetail" Collapsed="true">
+    <Position X="24" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACBAAAoECAAAAAAAECh0D8CAAC4ZwAJAEAAAAAAIoA=</HashCode>
+      <FileName>Student\FrmScoreDetail.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Frmstudentfee" Collapsed="true">
+    <Position X="29.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACBAAAgECAAAAAAAECh0D8CAAC4ZwAJAUAAAAAAIoA=</HashCode>
+      <FileName>Student\Frmstudentfee.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmStudentFees" Collapsed="true">
+    <Position X="31" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAgECAgAAAgAACB0gACAAi4ZwAIBAAAAAAAIoI=</HashCode>
+      <FileName>Student\FrmStudentFees.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Frmstudentgraduate" Collapsed="true">
+    <Position X="32.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgIAAAIECAAAAAAAACB8DwLBQD4ZwABAGIABAAAIoA=</HashCode>
+      <FileName>Student\Frmstudentgraduate.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsPartsubject" Collapsed="true">
+    <Position X="36.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAgAAAgAAAACBAgAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subject\ClsPartsubject.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsSubject" Collapsed="true">
+    <Position X="38" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAAAIKBAAACAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subject\ClsSubject.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.CrystalReport1" Collapsed="true">
+    <Position X="25.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>Subject\CrystalReport1.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.CachedCrystalReport1" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="24" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subject\CrystalReport1.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.DALSubject" Collapsed="true">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IQBBAREAIgEAQIAAAACBoAAkIAwAAABAEJAAQAAQQAg=</HashCode>
+      <FileName>Subject\DALSubject.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Frmalldatasubject" Collapsed="true">
+    <Position X="38" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAECAAAgAAACDAxAACABAQAAwAAgAARAAAAAA=</HashCode>
+      <FileName>Subject\Frmalldatasubject.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmPartSubject" Collapsed="true">
+    <Position X="25.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AqAAAiAAECCAAAQEAACAACAKAQAwIAEAAkAQRACECAA=</HashCode>
+      <FileName>Subject\FrmPartSubject.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmReportSubject" Collapsed="true">
+    <Position X="31" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAAACAAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Subject\FrmReportSubject.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmSubject" Collapsed="true">
+    <Position X="34.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QiAAAAgAECAAQAAEAADBFAEaAVAwAAMAQkAURACAAAA=</HashCode>
+      <FileName>Subject\FrmSubject.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ClsUserAccount" Collapsed="true">
+    <Position X="24" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAQCEIAAAhAAAEAAAAAQBAAgAJAAwEAgpA=</HashCode>
+      <FileName>UserAccount\ClsUserAccount.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.DAL" Collapsed="true">
+    <Position X="27.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAACEECAAAIgEBAADAEgAARQAQAgAkABQAAQQQgA=</HashCode>
+      <FileName>UserAccount\DAL.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.DataSet1" Collapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAwAAAAJABAAAQAAAAAgCQBgAAAAAAAMAFBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Frmalluseraccount" Collapsed="true">
+    <Position X="24" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAECAAIBIAAAiAwAECCAA4BgwAIEIAAgAgAgA=</HashCode>
+      <FileName>UserAccount\Frmalluseraccount.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmCreateNewUser" Collapsed="true">
+    <Position X="29.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAiAFARECAoiBAAAQiAwDmagBB4dw6BAEAQioI4AoE=</HashCode>
+      <FileName>UserAccount\FrmCreateNewUser.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmLogin" Collapsed="true">
+    <Position X="38" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAECEAAAAAAACAABgCAAAAYEAABEAEAAA4IYA=</HashCode>
+      <FileName>UserAccount\FrmLogin.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmReportuser" Collapsed="true">
+    <Position X="32.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACBAAACgAIAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>UserAccount\FrmReportuser.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.FrmStart" Collapsed="true">
+    <Position X="25.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAMAAAAACAQAACAAAAAAAAAEAAAAAEAAA=</HashCode>
+      <FileName>UserAccount\FrmStart.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.ManageUserAccount" Collapsed="true">
+    <Position X="25.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IEAjgEEBECAIEBAAEQiAgDmaiBB8dwYBBEIACoI4AoA=</HashCode>
+      <FileName>UserAccount\ManageUserAccount.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.Reportalluser" Collapsed="true">
+    <Position X="36.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>UserAccount\Reportalluser.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.CachedReportalluser" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="27.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UserAccount\Reportalluser.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblAttandantTableAdapter" Collapsed="true">
+    <Position X="27.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblDayStudyTableAdapter" Collapsed="true">
+    <Position X="29.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tbldetailattTableAdapter" Collapsed="true">
+    <Position X="31" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblDetailEmployeeTableAdapter" Collapsed="true">
+    <Position X="32.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tbldetailpaymentTableAdapter" Collapsed="true">
+    <Position X="34.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblDetailStudentTableAdapter" Collapsed="true">
+    <Position X="36.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblEmployeeTableAdapter" Collapsed="true">
+    <Position X="38" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblPartSubjectTableAdapter" Collapsed="true">
+    <Position X="39.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblPaymentTableAdapter" Collapsed="true">
+    <Position X="41.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblSalaryTableAdapter" Collapsed="true">
+    <Position X="25.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblSalarydetailTableAdapter" Collapsed="true">
+    <Position X="24" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblScheduleTableAdapter" Collapsed="true">
+    <Position X="27.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblScoreTableAdapter" Collapsed="true">
+    <Position X="31" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblscoredetailTableAdapter" Collapsed="true">
+    <Position X="29.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblStudentTableAdapter" Collapsed="true">
+    <Position X="32.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblSubjectTableAdapter" Collapsed="true">
+    <Position X="34.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblTermTableAdapter" Collapsed="true">
+    <Position X="36.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblTimeNameTableAdapter" Collapsed="true">
+    <Position X="38" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblTimesTableAdapter" Collapsed="true">
+    <Position X="39.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.tblUserAccountTableAdapter" Collapsed="true">
+    <Position X="41.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatadayTableAdapter" Collapsed="true">
+    <Position X="39.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatadetailemployeeTableAdapter" Collapsed="true">
+    <Position X="41.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatadetailsalaryTableAdapter" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatadetailstudentTableAdapter" Collapsed="true">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.GetalldataemployeeTableAdapter" Collapsed="true">
+    <Position X="29.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.GetalldataemployeeActiveTableAdapter" Collapsed="true">
+    <Position X="27.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatapartstudyTableAdapter" Collapsed="true">
+    <Position X="31" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatasalaryTableAdapter" Collapsed="true">
+    <Position X="32.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatascheduleTableAdapter" Collapsed="true">
+    <Position X="34.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatastudentTableAdapter" Collapsed="true">
+    <Position X="36.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatasubjectTableAdapter" Collapsed="true">
+    <Position X="38" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatatermTableAdapter" Collapsed="true">
+    <Position X="39.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatatimeTableAdapter" Collapsed="true">
+    <Position X="24" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getalldatatimenameTableAdapter" Collapsed="true">
+    <Position X="41.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdatadayTableAdapter" Collapsed="true">
+    <Position X="25.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdatadetailsalaryTableAdapter" Collapsed="true">
+    <Position X="27.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdataemployeedeleteTableAdapter" Collapsed="true">
+    <Position X="29.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdatascheduleTableAdapter" Collapsed="true">
+    <Position X="31" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdatastopworkTableAdapter" Collapsed="true">
+    <Position X="34.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdatastopworkdeleteTableAdapter" Collapsed="true">
+    <Position X="32.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdatasubjectTableAdapter" Collapsed="true">
+    <Position X="36.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdatatimeTableAdapter" Collapsed="true">
+    <Position X="39.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getdatatimenameTableAdapter" Collapsed="true">
+    <Position X="38" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.getTotalsalaryTableAdapter" Collapsed="true">
+    <Position X="41.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.GetuserTableAdapter" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.showdatapartstudyTableAdapter" Collapsed="true">
+    <Position X="39.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.showdatasubjectsTableAdapter" Collapsed="true">
+    <Position X="41.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.QueriesTableAdapter" Collapsed="true">
+    <Position X="32.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwIIiGMAAAQAAAAApBgGBAQgEKIJAAQEQgAgJAAAwZM=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.NANAManagementSystemDataSetTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="25.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gSIBSCAACAFAFAEhIxACNQMwAwDCmQAUgAQAxAEABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.DataSet1TableAdapters.tblUserAccountTableAdapter" Collapsed="true">
+    <Position X="24" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ThesisNanaManagementSystem.DataSet1TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="24" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAwAAACgAAAAAQABAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Module Name="ThesisNanaManagementSystem.My.MySettingsProperty" Collapsed="true">
+    <Position X="24" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Module Name="ThesisNanaManagementSystem.My.Resources.Resources" Collapsed="true">
+    <Position X="25.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEAAAFEAAAEQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Module>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
